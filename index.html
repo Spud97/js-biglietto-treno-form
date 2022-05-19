@@ -10,7 +10,101 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Biglietti Form</title>
   </head>
-  <body></body>
+  <body>
+    <section class="bg-red py-5">
+      <div class="container">
+        <h2 class="text-white text-center pb-4">
+          CALCOLA IL PREZZO DEL TUO BIGLIETTO
+        </h2>
+        <div class="box py-4 px-5 bg-white rounded-3 shadow">
+          <div class="d-flex justify-content-evenly">
+            <div class="input-box">
+              <span class="d-block text-red text-center pb-3"
+                >Nome Cognome</span
+              >
+              <input
+                type="text"
+                name="userName"
+                placeholder="Nome Cognome"
+                class="rounded border-red"
+              />
+            </div>
+            <div class="input-box">
+              <span class="d-block text-red text-center pb-3"
+                >Km da percorrere</span
+              >
+              <input
+                type="text"
+                name="userName"
+                placeholder="-"
+                class="rounded border-red"
+              />
+            </div>
+            <div class="input-box pb-5">
+              <span class="d-block text-red text-center pb-3"
+                >Fascia d'età</span
+              >
+              <input
+                type="text"
+                name="userName"
+                placeholder="-"
+                class="rounded border-red"
+              />
+            </div>
+          </div>
+          <div class="buttons-box d-flex justify-content-center pt-3">
+            <button class="text-red bold bg-btn-grey border-btn rounded mx-2">
+              Genera
+            </button>
+            <button class="text-red bold bg-btn-grey border-btn rounded mx-2">
+              Annulla
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <h2 class="text-white text-center pt-4">IL TUO BIGLIETTO</h2>
+        <div class="biglietto bg-white p-3">
+          <h4><strong>DETTAGLIO PASSEGGERI</strong></h4>
+          <div class="row px-3">
+            <div class="col-auto p-4 bg-grey">
+              <h4><strong>NOME PASSEGGERO</strong></h4>
+              <h5><strong>Prova</strong></h5>
+            </div>
+            <div class="col border-end-0 border-grey">
+              <div class="row p-4 font-st">
+                <div class="col px-0">
+                  <div class="d-flex flex-column">
+                    <span class="pb-5"><strong>Offerta</strong></span>
+                    <span>Prova</span>
+                  </div>
+                </div>
+                <div class="col px-0">
+                  <div class="d-flex flex-column">
+                    <span class="pb-5"><strong>Carrozza</strong></span>
+                    <span>Prova</span>
+                  </div>
+                </div>
+                <div class="col px-0">
+                  <div class="d-flex flex-column">
+                    <span class="pb-5"><strong>Codice CP</strong></span>
+                    <span>Prova</span>
+                  </div>
+                </div>
+                <div class="col px-0">
+                  <div class="d-flex flex-column">
+                    <span class="pb-5"><strong>Costo biglietto</strong></span>
+                    <span><span>Prova</span>€</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>

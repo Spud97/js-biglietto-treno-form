@@ -1,0 +1,51 @@
+.debug {
+  border: 1px dashed red;
+}
+
+body {
+  font-size: 1.2rem;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-red {
+  color: #bc3264;
+}
+
+.font-st {
+  font-size: 1.1rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bg-red {
+  background-color: #b91450;
+}
+
+.bg-grey {
+  background-color: #808080;
+}
+
+.bg-btn-grey {
+  background-color: #cccccc;
+}
+
+.border-red {
+  border: 2px solid #bc3264;
+}
+
+.border-grey {
+  border: 2px solid grey;
+}
+
+.border-btn {
+  border: 2px solid grey;
+}
+
+.border-btn:hover {
+  border: 2px solid rgb(218, 142, 0);
+}
