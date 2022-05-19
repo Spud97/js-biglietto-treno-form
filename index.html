@@ -28,6 +28,7 @@
               <input
                 type="text"
                 name="userName"
+                id="nome"
                 placeholder="Nome Cognome"
                 class="rounded border-red"
               />
@@ -37,8 +38,9 @@
                 >Km da percorrere</span
               >
               <input
-                type="text"
-                name="userName"
+                type="number"
+                name="userKm"
+                id="km"
                 placeholder="-"
                 class="rounded border-red"
               />
@@ -48,18 +50,25 @@
                 >Fascia d'età</span
               >
               <input
-                type="text"
-                name="userName"
+                type="number"
+                name="userAge"
+                id="eta"
                 placeholder="-"
                 class="rounded border-red"
               />
             </div>
           </div>
           <div class="buttons-box d-flex justify-content-center pt-3">
-            <button class="text-red bold bg-btn-grey border-btn rounded mx-2">
+            <button
+              id="btn1"
+              class="text-red bold bg-btn-grey border-btn rounded mx-2"
+            >
               Genera
             </button>
-            <button class="text-red bold bg-btn-grey border-btn rounded mx-2">
+            <button
+              id="btn2"
+              class="text-red bold bg-btn-grey border-btn rounded mx-2"
+            >
               Annulla
             </button>
           </div>
@@ -72,32 +81,32 @@
           <div class="row px-3">
             <div class="col-auto p-4 bg-grey">
               <h4><strong>NOME PASSEGGERO</strong></h4>
-              <h5><strong>Prova</strong></h5>
+              <h5 id="nome-utente"><strong>-</strong></h5>
             </div>
             <div class="col border-end-0 border-grey">
               <div class="row p-4 font-st">
                 <div class="col px-0">
                   <div class="d-flex flex-column">
                     <span class="pb-5"><strong>Offerta</strong></span>
-                    <span>Prova</span>
+                    <span id="offerta">-</span>
                   </div>
                 </div>
                 <div class="col px-0">
                   <div class="d-flex flex-column">
                     <span class="pb-5"><strong>Carrozza</strong></span>
-                    <span>Prova</span>
+                    <span id="carrozza">-</span>
                   </div>
                 </div>
                 <div class="col px-0">
                   <div class="d-flex flex-column">
                     <span class="pb-5"><strong>Codice CP</strong></span>
-                    <span>Prova</span>
+                    <span id="codice">-</span>
                   </div>
                 </div>
                 <div class="col px-0">
                   <div class="d-flex flex-column">
                     <span class="pb-5"><strong>Costo biglietto</strong></span>
-                    <span><span>Prova</span>€</span>
+                    <span><span id="prezzo">Prova</span>€</span>
                   </div>
                 </div>
               </div>
@@ -106,5 +115,6 @@
         </div>
       </div>
     </section>
+    <script src="js/main.js"></script>
   </body>
 </html>
