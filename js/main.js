@@ -16,6 +16,8 @@ buttonGenerate.addEventListener("click", function () {
   const carrozzaSegnata = document.getElementById("carrozza");
   const codiceSegnato = document.getElementById("codice");
   const userNameSegnato = document.getElementById("nome-utente");
+  const containerBiglietto = document.getElementById("container-biglietto")
+  containerBiglietto.classList.remove("d-none")
 
   if (isNaN(chiloMetriN)) {
     alert("Il chilometraggio inserito non è valido");
