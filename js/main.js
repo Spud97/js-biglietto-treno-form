@@ -5,6 +5,7 @@ deleteButton.addEventListener("click", function () {
 });
 buttonGenerate.addEventListener("click", function () {
   const userName = document.getElementById("nome");
+  let userNameN = userName.value
   const chiloMetri = document.getElementById("km");
   let chiloMetriN = chiloMetri.value
   const etaUtente = document.getElementById("eta");
@@ -51,7 +52,7 @@ buttonGenerate.addEventListener("click", function () {
     offertaSegnata.innerHTML = "Standard"
   }
 
-  userNameSegnato.innerHTML = `${userName}`;
+  userNameSegnato.innerHTML = `${userNameN}`;
   carrozzaSegnata.innerHTML = Math.floor(Math.random() * 10) + 1;
   codiceSegnato.innerHTML = Math.floor(Math.random() * 10000) + 1;
   prezzoBigliettoSegnato.innerHTML = `${prezzoBiglietto}`;
